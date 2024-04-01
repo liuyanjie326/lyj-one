@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘言杰个人简历</title>
+    <style>
+        body{
+            margin: 0%;
+            height: 270vh;
+            background-color: white;
+        }
+        .flex{
+            display: flex;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .row{
+            flex-direction: row;
+        }
+        .wrap{
+            flex-wrap: wrap;
+        }
+       /* * {
+            border: 1px solid black;
+        } */
+        .around{
+            justify-content: space-around;
+        }
+        .start{
+            justify-content: flex-start;
+        }
+        .between{
+            justify-content: space-between;
+        }
+        .horizontal-line {
+            border-bottom: 2px groove black;
+        }
+        p1{color: red}
+        .yinying{
+            box-shadow:0px 0px 50px #888888;
+        }
+         /* 当屏幕宽度小于600px时要改变的css */
+      @media (max-width: 600px) {
+        /* 小屏幕上取消侧边栏，后面学js时会教怎么弹出 */
+        .ceBian {
+          display: none;
+        }
+        /* 内容栏和数据栏flex方向改为竖向 */
+        .neiRong {
+          flex-direction: column;
+        }
+        .shuJuQu {
+          flex-direction: column;
+        }
+        /* 右区加左外边距 */
+        .youQu {
+          margin-left: 8px;
+        }
+        /* 数据块外边距，大小改为自动宽高 */
+        .shuJu {
+          margin: 0 0 8px;
+          flex: auto;
+        }
+      }
+
+    </style>
+</head>
+<body class="flex column">
+    <!--头像-->
+    <div style="
+    padding: 10px;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #999;
+  " class="flex"> 
+        <img alt="logo" src="https://pic.imgdb.cn/item/660140a59f345e8d034f11bd.jpg" 
+        width="60px" height="80px"> 
+        <div style="margin-left: 10px">刘言杰个人简历</div>
+    </div>
+    <!--基本信息-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0px; " > 基本信息 </p>
+    </div>
+    <div class="flex between neiRong" >
+        <div style="width: 200px; height:20px;"> 
+            <p>专业：结构工程</p>
+        </div>
+        <div style="width: 200px; height:20px;">
+            <p>出生日期：+1992.03.26</p>
+        </div>
+        <div style="width: 200px; height:20px;">
+            <p>政治面貌：中共党员</p>
+        </div>
+    </div>
+    <!--基本信息-->
+    <div class="flex between neiRong">
+        <div style="width: 200px; height:20px;">
+            <p>电话：+8618362083239</p>
+        </div>
+        <div style="width: 200px; height:20px;">
+            <p>mail:liuyanjie326@163.com</p>
+        </div>
+        <div style="width: 200px; height:20px;">
+            <p>籍贯：江苏连云港</p>
+        </div>  
+    </div>
+    <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+    <!--教育背景-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 教育背景 </p>
+    </div>
+    <div class="flex row between neiRong">
+        <div class="flex column"> 
+            <p style="height: 1px">2012.9- 2016.6</p>
+            <p style="height: 1px">2016.9- 2019.6</p>
+         </div>
+        <div class="flex column"> 
+            <p style="height: 1px">江苏海洋大学</p>
+            <p style="height: 1px">南京工业大学</p>
+         </div>
+        <div class="flex column"> 
+            <p style="height: 1px">土木工程专业</p>
+            <p style="height: 1px">结构工程专业</p>
+         </div>
+        <div class="flex column"> 
+            <p style="height: 1px">学士学位</p>
+            <p style="height: 1px">硕士学位</p>
+         </div>
+        </div>
+        <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+    <!--获奖荣誉-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 获奖荣誉 </p>
+    </div>
+    <div class="flex row between neiRong">
+    <div class="flex column"> 
+        <p style="height: 1px">学生期间：</p>
+        <p style="height: 1px">2017.09 校级硕士一等奖学金</p>
+        <p style="height: 1px">2014.11 国家励志奖学金</p>
+        <p style="height: 1px">2014.09 四次二等奖学金</p>
+        <p style="height: 1px">2013.09 三次三等奖学金</p>
+        <p style="height: 1px">2015.06 校高等数学竞赛 二等奖</p>
+        <p style="height: 1px">2014.11 校“优秀团员、优秀学生干部”称号</p>
+        <p style="height: 1px">2013.11 校科协“优秀会员、优秀社团干部” </p>
+     </div>
+     <div class="flex column">
+        <p style="height: 1px">工作期间：</p>
+        <p style="height: 1px">2020 担任华宇公司300人年会主持</p>
+        <p style="height: 1px">2021 获得华宇公司优秀工程师认证二等奖</p>
+        <p style="height: 1px">2021 华宇公司PPT动画制作“三等奖”</p>
+        <p style="height: 1px">2021 2022 获得华宇公司“土建之星”荣誉</p>      
+     </div>
+    </div>
+    <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+    <!--学生经历-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 学生经历 </p>
+    </div>
+    <div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2017.09-2019.06</p>
+            <p style="height: 1px">南京工业大学土木工程学院土研1601班</p>
+            <p style="height: 1px">团支书</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">举办“信”连“心”与山区孩子共话中国梦活动。让孩子们从书信中提高了认知，了解了外面世界。
+         </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2013.09-2015.06</p>
+            <p style="height: 1px">江苏海洋大学土木工程学院土木121班</p>
+            <p style="height: 1px">班长</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">制定“学霸”轮流坐班奖励制度，带领班级获得两次校先进班集体、一次省先进班集体称号。
+         </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2014.09-2015.06</p>
+            <p style="height: 1px">江苏海洋大学校大学生科技协会</p>
+            <p style="height: 1px">会长</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">圆满举办了科技“挑战杯”系列比赛，活动圆满完成，荣登学校内网头条。
+         </div>
+        </div>
+        <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+    <!--工作经历-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 学生经历 </p>
+    </div>
+    <div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2018.07-018.09</p>
+            <p style="height: 1px">南京中粮—祥云B地块</p>
+            <p style="height: 1px">土建工程师（实习）</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">负责祥云 B 地块精装修工程的进度、质量、安全。进度：①汇总施工单位日报并根据日报与现场实际配备人员核对；②按周统计每栋楼
+            空鼓维修、防水粉刷以及贴砖的进度。质量：①验收阳台卫生间防水基层及闭水；②监督施工单位按照甲方要求施工。安全：①检查现
+            场工人安全帽佩戴情况；②检查楼栋内有无乱用消防用水及扬尘问题；③根据项目安全管理手册发现安全隐患，及时反馈并处理。
+         </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2017.05-2017.08</p>
+            <p style="height: 1px">南京世茂—外滩新城项目</p>
+            <p style="height: 1px">风控客服（实习）</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">负责外滩新城物业查验工作。在物业查验阶段，带领 3 人小组，排查统计 614 户房修问题累计 3 万多条。协调 15 家责任单位对排查问题
+            一一整改回复，确保了项目的品质交付。风控客服岗不仅需要专业知识，"挑剔的眼光"，还需要善于平衡各方关系，更需要富有强烈的
+            责任心。
+         </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2019.06-2022.11</p>
+            <p style="height: 1px">华宇集团—悦隽公馆项目</p>
+            <p style="height: 1px">工程主管</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">负责 32 万方常州悦隽公馆项目工程管理工作，该项目分三批次交付，主要工作内容如下：
+            ①负责现场进度、质量管理；
+            ②负责监督落实施工安全措施；
+            ③负责制定现场安全行为规范手册；
+            ④负责监督排除现场及生活区安全隐患并对不合规地方责令整改；
+            ⑤负责对接环保部门，根据环保部门要求加强现场扬尘管控、污水规范排放问题管理。
+            期间在集团组织的第三方检查中，进度、质量、安全排名，多次获得前三名。
+         </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">2022.12-至今</p>
+            <p style="height: 1px">华宇集团—林湖雅舍项目</p>
+            <p style="height: 1px">工程经理</p>
+         </div>
+         <div style="margin: 10px 0 10px 0;">负责11 万方南京林湖雅舍项目工程管理工作，该项目分二批次交付，主要工作内容如下：
+            ①管理整个项目的安全、环保、消防、职业健康等相关事宜；
+            ②组织制定项目规章制度和体系文件，督促检查对文件和制度的培训和贯彻执行；
+            ③组织制定项目管理标准，落实检查、考核标准；
+            ④收集、研读相关规范，确保项目运营始终处在合规状态；
+            ⑤组织总包、监理及设计一起调查安全、质量相关的问题并跟踪整改，制定预防措施；
+            ⑥维护政府质监站、安监站、环保部门、住建部、房管局等部门关系。
+         </div>
+        </div>
+        <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+        <!--技能证书-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 技能证书 </p>
+    </div>
+    <div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">&#9670 熟练运用Word、Excel、PPT等Office系列办公软件</p>
+            <p style="height: 1px">&#9670 BIM初级工程师证书</p>
+         </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">&#9670 英语CET- 6证书、一级注册结构工程师</p>
+            <p style="height: 1px">&#9670 二级建造师证书、江苏省质量员证书</p>
+         </div>
+        </div>
+        <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+        <!--特长爱好-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 特长爱好</p>
+    </div>
+    <div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">&#9670 健身，羽毛球，阅读，交际</p>
+                 </div>
+        </div>
+        <div style="margin: 20px 0 0 0;" class="horizontal-line"></div>
+        <!--自我评价-->
+    <div style="height: 30px; background-color: #888888;" > 
+        <p style="color: rgb(239, 22, 22); font-size: larger; margin:0 0 10px 0; " > 自我评价</p>
+    </div>
+    <div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">&#9670 乐观自信，较强的同理心，组织能力较强，善于沟通协调，团队意识和抗压能力良好；</p>
+                 </div>
+    <div class="flex row between neiRong">
+            <p style="height: 1px">&#9670 善于学习新事物，能快速适应新环境并投入工作；核心竞争力：激情，自驱力，内控心。</p>
+                 </div>
+        </div>
+</body>
+</html>
